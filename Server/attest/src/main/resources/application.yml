@@ -1,0 +1,15 @@
+server:
+  port: 8200
+spring:
+  application:
+    name: attestApp
+  config:
+    import: optional:configserver:http://localhost:8888
+springdoc:
+  show-actuator: true
+  api-docs:
+    path: attest/v3/api-docs
+logging:
+  level:
+    brave: DEBUG
+    tracing: DEBUG
