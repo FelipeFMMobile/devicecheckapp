@@ -27,5 +27,6 @@ Make sure you have **Java 17+** and **Gradle** installed.
 ```bash
 ./gradlew bootRun
 ```
+Include you Google config files for Firebase and also your own credetials of your Apple account. 
 
 ## Developed by Felipe Menezes
